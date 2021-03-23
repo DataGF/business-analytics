@@ -25,8 +25,8 @@ Based on the data of a fictional hotel (hotelloyaltydata.csv), your boss asks yo
 - Only include the Customer Key, First and Last Names, and the likelihood they will redeem an offer.
 - Sort the data with the highest likelihood individuals are at the top.
 
-1. Stage One: deselect Customer Key, First Name, Last Name, and Redeemer as predictor variables. Motivation: Customer Key, First Name and Last Name there is no correlation on predicting a customer behavior and Redeemer is our target variable.
-2. Stage Two: deselect any categorical, non-numeric variables that contain more than four categories. Motivation: keep our model simple and effective. In addition, we adjust several the data types, like: "Spend" from string to double, "Stays Per Year" from string to double, "Total Days Stayed" from string to double and "Years Of Loyalty" from string to double.
-3. Stage Three: there was built and ran two models, a decision tree and a logistic regression for this issue.
-4. Stage Four: the two models that were built on the previous stage were compared and we choose logistic regression for our prediction.
-5. Stage Five: customer behavior was predict when the model was applyed on our data.
+1. *Stage One:* deselect Customer Key, First Name, Last Name, and Redeemer as predictor variables. Motivation: Customer Key, First Name and Last Name there is no correlation on predicting a customer behavior and Redeemer is our target variable.
+2. *Stage Two:* deselect any categorical, non-numeric variables that contain more than four categories. Motivation: keep our model simple and effective. In addition, we adjust several the data types, like: "Spend" from string to double, "Stays Per Year" from string to double, "Total Days Stayed" from string to double and "Years Of Loyalty" from string to double.
+3. *Stage Three:* there was built and ran two models, a decision tree and a logistic regression for this issue.
+4. *tage Four:* the two models that were built on the previous stage were compared and we choose logistic regression for our prediction.
+5. *Stage Five:* customer behavior was predict when the model was applyed on our data.
