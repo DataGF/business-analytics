@@ -16,3 +16,11 @@ Apply the model to the approval test and see how precisely the model predicts th
 
 ## SATEGE 5: APPLY THE MODEL TO MAKE PREDICTIONS 
 Apply the model to another dataset to make forecasts. This dataset ought to have all the indicator variable values, which are gone through the model to anticipate the obscure objective variable worth. The forecast will be a number somewhere in the range of 0 and 1, addressing the probability of positive result. Good tool for Alteryx users: Score.
+
+## CASE STUDY
+
+Based on the data of a fictional hotel (hotelloyaltydata.csv), your boss asks you the following:
+
+- Create a dataset that contains only the individuals who have a greater than 50% probability of redeeming an offer.
+- Only include the Customer Key, First and Last Names, and the likelihood they will redeem an offer.
+- Sort the data with the highest likelihood individuals are at the top.
