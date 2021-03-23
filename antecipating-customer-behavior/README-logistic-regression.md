@@ -30,3 +30,5 @@ Based on the data of a fictional hotel (hotelloyaltydata.csv), your boss asks yo
 3. *Stage Three:* there was built and ran two models, a decision tree and a logistic regression for this issue.
 4. *tage Four:* the two models that were built on the previous stage were compared and we choose logistic regression for our prediction.
 5. *Stage Five:* customer behavior was predict when the model was applyed on our data.
+
+![](https://github.com/DataGF/business-analytics/blob/main/antecipating-customer-behavior/schematic-model-on-alteryx.JPG)
