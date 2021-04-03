@@ -27,7 +27,7 @@ We worked with three classification models: decision tree, random forest and boo
 
 - Target variable: Mode (transportation mode).
 - Predictor variables: Gender, Age, Marital Status and Drive Distance Miles.
+![Target and Predictor variables](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/3_1_Decision_Tree_Target_Predictor_Variables.JPG)
 - [Click here](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/3_1_decisionTreeContructed.pdf) to see the model construction report.
-- ![Target and Predictor variables](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/3_1_Decision_Tree_Target_Predictor_Variables.JPG)
 - [Click here](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/3_1_decisionTreeComparison.pdf) to see the model comparison report.
 - Alteryx Tools: Decision Tree and Model Comparison.
