@@ -18,3 +18,16 @@ Fist of all we need to know how is our data so we used Alteryx Field Sumary Tool
 At the previous step we verifyed that the known data is good and know we can go to training and testing some models to make our predictions. For this we had split our known data in 70% of training data and 30% of testing data with a random seed of 1. We used Alteryx Create Sample Tool for this.
 
 ![70% training data and 30% testing data with a random seed 1](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/2_creating_samples.JPG)
+
+## Step 3 - Predicting Transportation Mode with Non-Binary Classification Models
+
+We worked with three classification models: decision tree, random forest and boosted models. Then the models was compared, scored and interpreted for the purpose of this work i.e. predicte the employees transportations mode of a firm.
+
+### Step 3.1 - Decision Tree
+
+Target variable: Mode (transportation mode).
+Predictor variables: Gender, Age, Marital Status and Drive Distance Miles.
+[Click here](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/3_1_decisionTreeContructed.pdf) to see the model construction report.
+![Target and Predictor variables](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/3_1_Decision_Tree_Target_Predictor_Variables.JPG)
+[Click here](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/3_1_decisionTreeComparison.pdf) to see the model comparison report.
+Alteryx Tools: Decision Tree and Model Comparison.
