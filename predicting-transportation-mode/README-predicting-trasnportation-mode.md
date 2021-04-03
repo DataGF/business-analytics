@@ -40,4 +40,15 @@ We worked with three classification models: decision tree, random forest and boo
 - [Click here](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/3_2_randomForestContructed.pdf) to see the model construction report.
 - [Click here](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/3_2_randomForestComparison.pdf) to see the model comparison report.
 - Alteryx Tools: Forest Model and Model Comparison.
-- Consideration about the number of trees: the percentage error for different numbers of trees stabilyzes around 25 to 50 trees and we could utilize 50 tress for the purpuse of this prediction. But, since there were no processing time consumption trouble we go on with our 500 trees.
+- **Consideration about the number of trees:** the percentage error for different numbers of trees stabilyzes around 25 to 50 trees and we could utilize 50 tress for the purpuse of this prediction. But, since there were no processing time consumption trouble we go on with our 500 trees.
+- The **most important predictor variable** acording to this model is **Drive Distance Miles**.
+
+### Step 3.3 - Boosted Model
+
+- Target variable: Mode (transportation mode).
+- Predictor variables: Gender, Age, Marital Status and Drive Distance Miles.
+![Target and Predictor variables](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/3_3_Boosted_Model_Target_Predictor_Variables.JPG)
+- [Click here](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/3_3_boostedModelContructed.pdf) to see the model construction report.
+- [Click here](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/3_3_boostedModelComparison.pdf) to see the model comparison report.
+- Alteryx Tools: Forest Model and Model Comparison.
+- The **most important predictor variable** acording to this model is also **Drive Distance Miles**.
