@@ -23,7 +23,7 @@ At the previous step we verifyed that the known data is good and know we can go 
 
 We worked with three classification models: decision tree, random forest and boosted models. Then the models was compared, scored and interpreted for the purpose of this work i.e. predicte the employees transportations mode of a firm.
 
-### Step 3.1 - Decision Tree
+### Step 3.1 - Decision Tree Model
 
 - Target variable: Mode (transportation mode).
 - Predictor variables: Gender, Age, Marital Status and Drive Distance Miles.
@@ -31,3 +31,13 @@ We worked with three classification models: decision tree, random forest and boo
 - [Click here](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/3_1_decisionTreeContructed.pdf) to see the model construction report.
 - [Click here](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/3_1_decisionTreeComparison.pdf) to see the model comparison report.
 - Alteryx Tools: Decision Tree and Model Comparison.
+
+### Step 3.2 - Random Forest Model
+
+- Target variable: Mode (transportation mode).
+- Predictor variables: Gender, Age, Marital Status and Drive Distance Miles.
+![Target and Predictor variables](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/3_2_Random_Forest_Target_Predictor_Variables.JPG)
+- [Click here](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/3_2_randomForestContructed.pdf) to see the model construction report.
+- [Click here](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/3_2_randomForestComparison.pdf) to see the model comparison report.
+- Alteryx Tools: Forest Model and Model Comparison.
+- Consideration about the number of trees: the percentage error for different numbers of trees stabilyzes around 25 to 50 trees and we could utilize 50 tress for the purpuse of this prediction. But, since there were no processing time consumption trouble we go on with our 500 trees.
