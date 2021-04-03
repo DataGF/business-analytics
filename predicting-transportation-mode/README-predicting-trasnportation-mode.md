@@ -65,11 +65,13 @@ Aletryx Tools: Union, Model Comparison.
 
 ## Step 5 - Forecast for unknown mode of transport
 
-Missing data sheet: [missingemployees.csv](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/missingemployees.csv)
-Predicted data sheet: [5_predicted_transportation_employees.xlsx](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/5_predicted_transportation_employees.xlsx)
-Alteryx Tools: Select, Score, Formula, Summarize.
+- Missing data sheet: [missingemployees.csv](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/missingemployees.csv)
+- Predicted data sheet: [5_predicted_transportation_employees.xlsx](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/5_predicted_transportation_employees.xlsx)
+- Alteryx Tools: Select, Score, Formula, Summarize.
 
 **Our random forest model predicted 141 employees who cicle to work, 915 drive to work and 479 take public transportation to work.**
+
+![](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/random_forest_predicting_employees_transportation.JPG)
 
 ## Overall Alteryx Schema
 
