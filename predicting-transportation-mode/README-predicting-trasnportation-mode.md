@@ -55,7 +55,7 @@ We worked with three classification models: decision tree, random forest and boo
 
 ## Step 4 - Choosing the Best Model for Employees Transportation Mode Prediction
 
-Now it's time to compare the three models and choose the best one for our purpose. The three non-binary models performed well, but by a slight difference the accuracy and F1-score of the random forest model was the best and this is the reason we choosen it.
+Now it's time to compare the three models and choose the best one for our purpose. The three non-binary models performed well, but by a slight difference **the accuracy and F1-score of the random forest model was the best and this is the reason we choosen it.**
 
 But if the purpose of this study was to predict only employees who cycle to work, the decision tree model is the best model. If our goal was to predict only employees who drive to work, then the boosted model should be chosen and if our goal was to predict only employees who take public transport to work then we could choose a decision tree or even the random forest model.
 
