@@ -2,7 +2,7 @@
 
 ## Step 1 - Verifying Data
 
-Here we will utilize know transportation data of a firm's employees. The data was arranged in a alteryx format file: employees-transportationdata.yxdb. The missing data was arranged in a csv format file: missingemployee.csv.
+Here we will utilize know transportation data of a firm's employees. The data was arranged in a alteryx format file: [employees-transportationdata.yxdb](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/employees-transporatationdata.yxdb). The missing data was arranged in a csv format file: [missingemployee.csv](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/missingemployees.csv).
 
 Fist of all we need to know how is our data so we used Alteryx Field Sumary Tool to do that. We verifyed the following data.
 
@@ -62,3 +62,15 @@ But if the purpose of this study was to predict only employees who cycle to work
 **You can see the Model Comparison Report by [Clicking Here](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/4_choosingBestModelReport.pdf).**
 
 Aletryx Tools: Union, Model Comparison.
+
+## Step 5 - Forecast for unknown mode of transport
+
+Missing data sheet: [missingemployees.csv](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/missingemployees.csv)
+Predicted data sheet: [5_predicted_transportation_employees.xlsx](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/5_predicted_transportation_employees.xlsx)
+Alteryx Tools: Select, Score, Formula, Summarize.
+
+**Our random forest model predicted 141 employees who cicle to work, 915 drive to work and 479 take public transportation to work.**
+
+## Overall Alteryx Schema
+
+![Overall Alteryx Schema](https://github.com/DataGF/business-analytics/blob/main/predicting-transportation-mode/overall_alteryx_schema_predicting_transportation.JPG)
